@@ -33,33 +33,3 @@ npm run dev
 ```
 
 Open http://localhost:5173
-
-## Deploy to Vercel
-
-**Option 1 — Vercel CLI**
-```bash
-npm i -g vercel
-vercel
-```
-
-**Option 2 — Vercel Dashboard**
-1. Push to a GitHub repo
-2. Go to https://vercel.com/new and import the repo
-3. Framework preset: Vite (auto-detected)
-4. Click Deploy
-
-## Deploy to Netlify
-
-```bash
-npm run build
-# Drag the dist/ folder to https://app.netlify.com/drop
-```
-
-## Routes
-
-| Path        | Page             |
-|-------------|------------------|
-| /           | Landing / Home   |
-| /login      | Sign In          |
-| /register   | Create Account   |
-| /settings   | Account Settings |
